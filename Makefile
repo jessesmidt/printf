@@ -26,9 +26,6 @@ OBJ			= $(SRC:.c=.o)
 
 all:		$(NAME)
 
-# %.o: %.c
-# 			$(CC) $(CFLAGS) -c $< -o $@
-
 $(NAME):	$(LIBFT) $(OBJ)
 			make -C $(LIBFT_DIR)
 			cp $(LIBFT) $(NAME)

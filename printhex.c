@@ -32,8 +32,6 @@ static	char	*ft_itoahex(unsigned int n)
 	int				i;
 
 	m = n;
-	if (m < 0)
-		return (0);
 	i = ilen(m);
 	res = malloc((i * sizeof(char) + 1));
 	if (!res)

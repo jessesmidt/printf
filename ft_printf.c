@@ -70,9 +70,9 @@ int	ft_printf(const char *str, ...)
 	return (plen);
 }
 
-int main(void)
-{
-	char *ptr;
-	int plen = ft_printf("string %r testest", ptr);
-	ft_printf ("%i", plen);
-}
+// int main(void)
+// {
+// 	char *ptr;
+// 	int plen = ft_printf("string %r testest", ptr);
+// 	ft_printf ("%i", plen);
+// }
